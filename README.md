@@ -26,5 +26,7 @@ When environment is activated, install modules that are needed for this project 
 
 Next, launch the Python script:
  -  python main.py
+   
 or 
+
  -  python3 main.py
