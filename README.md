@@ -24,10 +24,7 @@ Next, activate the environment by command:
 When environment is activated, install modules that are needed for this project (you can check them by opening requirements.txt file):
  -  pip install -r requirements.txt
 
-
-
 Next, launch the Python script:
-  python main.py
+ -  python main.py
 or 
-  python3 main.py
-
+ -  python3 main.py
