@@ -2,7 +2,7 @@
 
 Repository contains Python environment with script, that downloads dataset CSV from kaggle.com, converts it to JSON format, and then sends it to Splunk HEC on local environment.
 Please download the cribl_project.tar.gz file and unpack it in the preferred directory, you can use below command in the terminal:
-  tar -xvzf cribl_project.tar.gz
+ -  tar -xvzf cribl_project.tar.gz
 
 Prerequisites
 
@@ -16,13 +16,13 @@ When the token is copied to the main cribl_project directory, proceed to the nex
 
 This project is created as environment, to activate it, you need to have venv module installed.
 To download the module use the command:
-  pip install venv
+ -  pip install venv
 
 Next, activate the environment by command:
-  source cribl_project/bin/activate
+ -  source cribl_project/bin/activate
   
 When environment is activated, install modules that are needed for this project (you can check them by opening requirements.txt file):
-  pip install -r requirements.txt
+ -  pip install -r requirements.txt
 
 
 
