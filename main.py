@@ -33,14 +33,13 @@ payload = {
 
 body = json.dumps(payload, indent=4)
 
-# POST https request
 
+# POST https request
 http_url = 'http://localhost:8088/services/collector'
 
 headers = {
 #    'Authorization': 'Splunk <token>',
 }
-
 
 response = requests.post(http_url, headers=headers, data=body)
 
