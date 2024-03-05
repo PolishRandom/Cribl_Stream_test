@@ -30,3 +30,6 @@ Next, launch the Python script:
 or 
 
  -  python3 main.py
+
+Because the Source Splunk HEC is connected to TCP JSON, you need to use netcat to start listening to TCP port:
+ -  /<cribl installation directory>/cribl/bin/cribl nc -p 42000 -s 0 -o | jq .
